@@ -1,0 +1,23 @@
+
+h1{
+    color: #333;
+    transition: 1s;
+}
+h1:hover{
+    color: red;
+}
+
+img{
+    width : 500px;
+    transition: 2s;
+}
+img:hover{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+article{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}

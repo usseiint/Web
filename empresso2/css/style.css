@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 17vh;
+    display: flex;
+}
+
+.headerDiv1{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headerDiv2{
+    width: 20%;
+    height: 100%;
+}
+
+.headerDiv3{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    color: darkblue;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+.headerDiv2 img{
+    width: 100%;
+    height: 100%;
+}

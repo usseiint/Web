@@ -1,0 +1,405 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 10vh;
+   border-bottom-style: solid;
+    border-bottom-width: thin   ;
+    border-color: grey;
+    display: flex;
+
+}
+
+.product{
+    width:45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Logo{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logoImg{
+    width: 150px;
+    height: 120px;
+}
+.sale{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gg{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+li a{
+    color: black;
+    margin-right: 25px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Tahoma;
+    padding: 25px 0;
+
+}
+
+
+
+
+.vypadM{
+    width: 100%;
+    height: 500px;
+    background: white;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    display: none;
+
+    padding: 0;
+    margin-left: 0;
+
+}
+
+ul li:hover .vypadM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+ul li:hover a{
+    border-bottom-style: solid;
+    border-color: darkblue;
+    color: darkblue;
+
+}
+.ssylki{
+    width: 50%;
+    height: 100%;
+
+}
+.ssylki li {
+    display: flex;
+    flex-direction: column;
+    font-family: Tahoma;
+    font-size: 15px;
+    margin: 15px 5px;
+    padding-left: 60px;
+}
+.ssylki1 li {
+    display: flex;
+    flex-direction: column;
+    font-family: Tahoma;
+    font-size: 15px;
+    margin: 15px 5px;
+    padding-left: 50px;
+}
+h3{
+ display: inline-block;
+}
+
+.div1{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div2{
+    width: 20%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    border-left-style: solid;
+    border-left-width:thin;
+}
+
+.div3{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reklamaImg{
+    width:100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+  display: block;
+    text-align: center;
+}
+
+
+.section1{
+    width: 100%;
+    height: 90vh;
+
+    background: url("https://support-ca.samsung.com/seca/images/hero-img.jpg");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section2{
+    width: 100%;
+    height: 50vh;
+
+}
+
+.section3{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F5F5F5;
+
+}
+
+/*.slider{*/
+    /*width: 700px;*/
+    /*height: 700px;*/
+
+/*}*/
+
+/*.slider img{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*display: inline-block;*/
+    /*transition: 2s;*/
+/*}*/
+
+
+/*.sliderImg1{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*z-index: 3;*/
+/*}*/
+
+/*.sliderImg2{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*z-index: 2;*/
+
+/*}*/
+
+.sliderImg3{
+    width: 100%;
+    height: 100%;
+
+
+}
+
+/*.perekluch{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+/*}*/
+
+.perekluch input{
+    margin-right: 50px ;
+    font-size: large;
+    font-family: Tahoma;
+    border: darkblue;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 15px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+/*.perekluch .one a:hover .slider .sliderImg1{*/
+    /*z-index: 5 !important;*/
+
+/*}*/
+
+/*.perekluch .two a:hover .slider .sliderImg2{*/
+    /*z-index: 5 !important;*/
+/*}*/
+
+/*.perekluch .three a:hover .slider .sliderImg3{*/
+    /*display: none;*/
+
+/*}*/
+
+
+footer{
+    width: 100%;
+    height: inherit;
+    background: #f7f7f7;
+}
+
+.f1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.f1 h3{
+    display: inline-block;
+
+    position: relative;
+}
+
+.f1 h3:after {
+    content: ' ';
+    position: absolute;
+    right: -20px;
+    top: 5px;
+    background-image: url("../images/next.svg");
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+
+}
+
+
+.textGalaxy{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    display: block;
+}
+
+.suretter{
+    width: 100%;
+    height: 85%;
+}
+
+.suret1 {
+    padding: 0;
+    width: 33%;
+    height: 100%;    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.suret2{
+    padding: 0;
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+}
+.suret3{
+    padding: 0;
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+
+}
+img{
+    width: 100%;
+    height: 80%;
+}
+
+.suretter p{
+    font-family: Tahoma;
+    font-size: small;
+    font-weight: bold;
+}
+
+.textGalaxy h1{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Tahoma;
+}
+.suret1 img:hover {
+    transform: scale(1.07);
+    transition: 1s;
+
+}
+.suret2 img:hover {
+    transform: scale(1.07);
+    transition: 1s;
+}
+.suret3 img:hover {
+    transform: scale(1.07);
+    transition: 1s;
+}
+
+.suret1 img, .suret2 img, .suret3 img{
+    transition: 1s;
+}
+
+.ad{
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.telPhoto{
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sss{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+
+}
+
+.ad p{
+    width: 60%;
+    font-size: 60px;
+    margin-left: 50px;
+}
+.ad a{
+    width: 150px;
+    border-radius: 45px;
+    padding: 20px 40px;
+    margin-left: 50px;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
